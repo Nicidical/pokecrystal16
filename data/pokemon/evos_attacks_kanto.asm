@@ -352,7 +352,7 @@ BeedrillEvosAttacks:
 	dbw 1, FURY_ATTACK
 	dbw 10, FURY_ATTACK
 	dbw 15, FOCUS_ENERGY
-	dbw 20, TWINEEDLE
+	dbw 20, X_SCISSOR
 	dbw 25, RAGE
 	dbw 30, PURSUIT
 	dbw 35, PIN_MISSILE
@@ -1094,7 +1094,7 @@ TentacoolEvosAttacks:
 	dbw 6, SUPERSONIC
 	dbw 12, CONSTRICT
 	dbw 19, ACID
-	dbw 25, BUBBLEBEAM
+	dbw 25, WATER_PULSE
 	dbw 30, WRAP
 	dbw 36, BARRIER
 	dbw 43, SCREECH
@@ -1109,7 +1109,7 @@ TentacruelEvosAttacks:
 	dbw 6, SUPERSONIC
 	dbw 12, CONSTRICT
 	dbw 19, ACID
-	dbw 25, BUBBLEBEAM
+	dbw 25, WATER_PULSE
 	dbw 30, WRAP
 	dbw 38, BARRIER
 	dbw 47, SCREECH
@@ -1774,7 +1774,7 @@ StaryuEvosAttacks:
 	dbw 13, RAPID_SPIN
 	dbw 19, RECOVER
 	dbw 25, SWIFT
-	dbw 31, BUBBLEBEAM
+	dbw 31, WATER_PULSE
 	dbw 37, MINIMIZE
 	dbw 43, LIGHT_SCREEN
 	dbw 50, HYDRO_PUMP
@@ -1785,7 +1785,7 @@ StarmieEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, RAPID_SPIN
 	dbw 1, RECOVER
-	dbw 1, BUBBLEBEAM
+	dbw 1, WATER_PULSE
 	dbw 37, CONFUSE_RAY
 	db 0 ; no more level-up moves
 

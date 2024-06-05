@@ -46,7 +46,7 @@
 	const DOUBLE_EDGE  ; 26
 	const TAIL_WHIP    ; 27
 	const POISON_STING ; 28
-	const TWINEEDLE    ; 29
+	const X_SCISSOR    ; 29
 	const PIN_MISSILE  ; 2a
 	const LEER         ; 2b
 	const BITE         ; 2c
@@ -66,7 +66,7 @@
 	const ICE_BEAM     ; 3a
 	const BLIZZARD     ; 3b
 	const PSYBEAM      ; 3c
-	const BUBBLEBEAM   ; 3d
+	const WATER_PULSE  ; 3d
 	const AURORA_BEAM  ; 3e
 	const HYPER_BEAM   ; 3f
 	const PECK         ; 40

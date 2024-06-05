@@ -154,7 +154,8 @@ CyndaquilEvosAttacks:
 	dbbw EVOLVE_LEVEL, 14, QUILAVA
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
-	dbw 1, LEER
+	dbw 1, X_SCISSOR
+	dbw 1, CHARM
 	dbw 6, SMOKESCREEN
 	dbw 12, EMBER
 	dbw 19, QUICK_ATTACK
@@ -524,7 +525,7 @@ MarillEvosAttacks:
 	dbw 6, TAIL_WHIP
 	dbw 10, WATER_GUN
 	dbw 15, ROLLOUT
-	dbw 21, BUBBLEBEAM
+	dbw 21, WATER_PULSE
 	dbw 28, DOUBLE_EDGE
 	dbw 36, RAIN_DANCE
 	db 0 ; no more level-up moves
@@ -539,7 +540,7 @@ AzumarillEvosAttacks:
 	dbw 6, TAIL_WHIP
 	dbw 10, WATER_GUN
 	dbw 15, ROLLOUT
-	dbw 25, BUBBLEBEAM
+	dbw 25, WATER_PULSE
 	dbw 36, DOUBLE_EDGE
 	dbw 48, RAIN_DANCE
 	db 0 ; no more level-up moves
@@ -1021,7 +1022,7 @@ CorsolaEvosAttacks:
 	dbw 7, HARDEN
 	dbw 13, BUBBLE
 	dbw 19, RECOVER
-	dbw 25, BUBBLEBEAM
+	dbw 25, WATER_PULSE
 	dbw 31, SPIKE_CANNON
 	dbw 37, MIRROR_COAT
 	dbw 43, ANCIENTPOWER
@@ -1034,7 +1035,7 @@ RemoraidEvosAttacks:
 	dbw 11, LOCK_ON
 	dbw 22, PSYBEAM
 	dbw 22, AURORA_BEAM
-	dbw 22, BUBBLEBEAM
+	dbw 22, WATER_PULSE
 	dbw 33, FOCUS_ENERGY
 	dbw 44, ICE_BEAM
 	dbw 55, HYPER_BEAM
@@ -1046,7 +1047,7 @@ OctilleryEvosAttacks:
 	dbw 11, CONSTRICT
 	dbw 22, PSYBEAM
 	dbw 22, AURORA_BEAM
-	dbw 22, BUBBLEBEAM
+	dbw 22, WATER_PULSE
 	dbw 25, OCTAZOOKA
 	dbw 38, FOCUS_ENERGY
 	dbw 54, ICE_BEAM
@@ -1063,7 +1064,7 @@ MantineEvosAttacks:
 	dbw 1, TACKLE
 	dbw 1, BUBBLE
 	dbw 10, SUPERSONIC
-	dbw 18, BUBBLEBEAM
+	dbw 18, WATER_PULSE
 	dbw 25, TAKE_DOWN
 	dbw 32, AGILITY
 	dbw 40, WING_ATTACK
@@ -1305,7 +1306,7 @@ SuicuneEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, BITE
 	dbw 1, LEER
-	dbw 11, BUBBLEBEAM
+	dbw 11, WATER_PULSE
 	dbw 21, RAIN_DANCE
 	dbw 31, GUST
 	dbw 41, AURORA_BEAM

@@ -45,7 +45,7 @@ MoveDescriptions1:
 	dw DoubleEdgeDescription
 	dw TailWhipDescription
 	dw PoisonStingDescription
-	dw TwineedleDescription
+	dw XScissorDescription
 	dw PinMissileDescription
 	dw LeerDescription
 	dw BiteDescription
@@ -65,7 +65,7 @@ MoveDescriptions1:
 	dw IceBeamDescription
 	dw BlizzardDescription
 	dw PsybeamDescription
-	dw BubblebeamDescription
+	dw WaterPulseDescription
 	dw AuroraBeamDescription
 	dw HyperBeamDescription
 	dw PeckDescription
@@ -420,9 +420,9 @@ PoisonStingDescription:
 	db   "An attack that may"
 	next "poison the target.@"
 
-TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+XScissorDescription:
+	db   "A claw attack with"
+	next "scissor motions.@"
 
 PinMissileDescription:
 	db   "Fires pins that"
@@ -500,9 +500,9 @@ PsybeamDescription:
 	db   "An attack that may"
 	next "confuse the foe.@"
 
-BubblebeamDescription:
+WaterPulseDescription:
 	db   "An attack that may"
-	next "lower SPEED.@"
+	next "cause CONFUSION.@"
 
 AuroraBeamDescription:
 	db   "An attack that may"

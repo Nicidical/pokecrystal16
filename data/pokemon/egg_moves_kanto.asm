@@ -323,7 +323,7 @@ GrowlitheEggMoves:
 PoliwagEggMoves:
 	dw MIST
 	dw SPLASH
-	dw BUBBLEBEAM
+	dw WATER_PULSE
 	dw HAZE
 	dw MIND_READER
 	dw -1 ; end
@@ -410,7 +410,7 @@ GrimerEggMoves:
 	dw -1 ; end
 
 ShellderEggMoves:
-	dw BUBBLEBEAM
+	dw WATER_PULSE
 	dw TAKE_DOWN
 	dw BARRIER
 	dw RAPID_SPIN
@@ -551,7 +551,7 @@ EeveeEggMoves:
 	dw -1 ; end
 
 OmanyteEggMoves:
-	dw BUBBLEBEAM
+	dw WATER_PULSE
 	dw AURORA_BEAM
 	dw SLAM
 	dw SUPERSONIC
@@ -559,7 +559,7 @@ OmanyteEggMoves:
 	dw -1 ; end
 
 KabutoEggMoves:
-	dw BUBBLEBEAM
+	dw WATER_PULSE
 	dw AURORA_BEAM
 	dw RAPID_SPIN
 	dw DIG

@@ -320,7 +320,7 @@ SnubbullEggMoves:
 QwilfishEggMoves:
 	dw FLAIL
 	dw HAZE
-	dw BUBBLEBEAM
+	dw WATER_PULSE
 	dw SUPERSONIC
 	dw -1 ; end
 

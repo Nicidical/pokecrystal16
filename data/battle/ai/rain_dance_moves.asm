@@ -4,7 +4,7 @@ RainDanceMoves:
 	dw WATER_GUN
 	dw HYDRO_PUMP
 	dw SURF
-	dw BUBBLEBEAM
+	dw WATER_PULSE
 	dw THUNDER
 	dw WATERFALL
 	dw CLAMP
