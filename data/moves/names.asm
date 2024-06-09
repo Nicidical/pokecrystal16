@@ -123,7 +123,7 @@ MoveNames::
 	db "LICK@"
 	db "SMOG@"
 	db "SLUDGE@"
-	db "BONE CLUB@"
+	db "BULLDOZE@"
 	db "FIRE BLAST@"
 	db "WATERFALL@"
 	db "CLAMP@"

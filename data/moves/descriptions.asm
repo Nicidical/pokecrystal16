@@ -129,7 +129,7 @@ MoveDescriptions1:
 	dw LickDescription
 	dw SmogDescription
 	dw SludgeDescription
-	dw BoneClubDescription
+	dw BulldozeDescription
 	dw FireBlastDescription
 	dw WaterfallDescription
 	dw ClampDescription
@@ -756,9 +756,9 @@ SludgeDescription:
 	db   "An attack that may"
 	next "poison the foe.@"
 
-BoneClubDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+BulldozeDescription:
+	db   "An attack that"
+	next "lowers SPEED.@"
 
 FireBlastDescription:
 	db   "An attack that"

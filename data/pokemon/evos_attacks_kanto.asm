@@ -1541,7 +1541,7 @@ CuboneEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 5, TAIL_WHIP
-	dbw 9, BONE_CLUB
+	dbw 9, BULLDOZE
 	dbw 13, HEADBUTT
 	dbw 17, LEER
 	dbw 21, FOCUS_ENERGY
@@ -1556,10 +1556,10 @@ MarowakEvosAttacks:
 	db 0 ; no more evolutions
 	dbw 1, GROWL
 	dbw 1, TAIL_WHIP
-	dbw 1, BONE_CLUB
+	dbw 1, BULLDOZE
 	dbw 1, HEADBUTT
 	dbw 5, TAIL_WHIP
-	dbw 9, BONE_CLUB
+	dbw 9, BULLDOZE
 	dbw 13, HEADBUTT
 	dbw 17, LEER
 	dbw 21, FOCUS_ENERGY
